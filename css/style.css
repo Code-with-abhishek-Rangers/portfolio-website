@@ -1,0 +1,59 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    height: 400px;
+}
+/* with help of margin */
+
+.logo{
+    padding-top: 25px;
+}
+
+.nav{
+    padding-top: 20px;
+}
+.menu, .right{
+    padding-top: 12px;
+}
+.menu{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 30px;
+    color: white;
+}
+.menu a:hover{
+    color: rgb(47, 170, 219);
+}
+
+.container .nav .right button{
+     padding: 15px 50px;
+     background-color: rgb(47, 170, 219);
+     border: none;
+     font-size: 25px;
+     
+}
+.container .nav .right button:hover{
+    /* padding: 45px; */
+    background-color: rgb(3, 3, 3);
+    border: 1px solid rgb(47, 170, 219) ;
+    color: rgb(47, 170, 219)
+    
+}
+
+
+.layout{
+    display: flex;
+}
+.arrangement{
+    justify-content: center;
+}
